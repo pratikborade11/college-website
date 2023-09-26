@@ -1,0 +1,162 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins';
+
+}
+
+header{
+
+        height: 244px;
+        width: 100%;
+        background-color:white;
+        /* display: flex; */
+        /* justify-content: center; */
+
+
+        
+}
+.collegeinfo {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0 ;
+
+}
+.clgname{
+        text-align: center;
+        margin: 0 50px;
+        line-height: 1.3;
+
+}
+.logo{
+        margin-top: 15px;
+}
+
+.clgname h2{
+
+        font-size: 1rem;
+        font-family: sans-serif;
+
+}
+.clgname h1{
+        font-size: 1.5rem ;
+        font-family: 'Times New Roman', Times, serif;
+        color: #2b64a7;
+
+}
+.clgname h3{
+        font-size:16px ;
+        font-family: sans-serif;
+}
+.clgname p{
+        font-weight: bold;
+        font-size: 20px;
+        color: #a53333;
+}
+/* .clgname h4{
+
+    font-size: 14px;
+    color: #a53333;
+} */
+.UBA h1{
+        font-size: 30px ;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(250,165,79);
+}
+
+nav{
+        height: 45px;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(209,84,0,1) 0%, rgba(233,116,0,1) 100%);
+}
+nav ul{
+        display: flex;
+        height: 45px;
+        justify-content: space-around;
+        width: 900px;
+        align-items: center;
+        text-decoration: none;
+        
+}
+nav ul li{
+        list-style: none;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+}
+ nav ul li:hover{
+        
+        color: black;
+        /* text-decoration: underline; */
+ }
+
+.Slider{
+        margin-left: 30px;
+        width: 45%;
+        border: 3px solid black ;
+        border-radius: 10px;
+        height: 450px;
+}
+
+.mySlides{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+}
+
+.topsection{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 500px;
+        /* background-color: red; */
+        align-items: center;
+
+}
+
+
+/* Notificaton Section */
+
+.notifications{
+        margin-left: 30px;
+        width: 45%;
+        height: 450px;
+        border: 3px solid black ;
+        border-radius: 10px;
+        
+        
+}
+.survey{
+        display: flex;
+        height: 90px;
+        width: 100%;
+        background-color: antiquewhite;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 12px;
+        padding: 10px;
+}
+.survey img{
+        height: 40px;
+        width: 40px;
+        margin-left: 25px;
+        
+}
+.survey p{
+        text-align: center;
+}
+.new{
+        height: 40px;
+        width: 100%;
+        background: linear-gradient(0deg, rgba(209,84,0,1) 0%, rgba(233,116,0,1) 100%);
+        font-family:Verdana;
+        padding: 5px;
+
+}
+
+
